@@ -64,8 +64,8 @@ function learning_records() {
     sheet.getRange(j+3,11).setValue(time_sum[j]);
   }
 
-  var range = sheet.getRange(3,9,types.length+1,3);
-  const colors = ["BLUE", "GREEN", "CHESTNUT", "YELLOW", "TURQOISE", "SEA_BLUE", "MUSTARD", "OLIVE", "BROWN", "CHARCOAL", "GRAY", "INDIGO", "LIME", "ORANGE", "PINK", "PLUM", "PURPLE", "RED", "RED_ORANGE", "SLATE", "TEAL"];
+  var range = sheet.getRange(2,9,types.length+1,3);
+  const colors = ["blue", "green", "maroon", "red", "purple", "fuchsia", "lime", "olive", "yellow", "navy", "teal", "aqua", "black", "silver", "gray"];
   var chart=sheet.newChart()
     .addRange(range)
     .asBarChart()
@@ -73,6 +73,7 @@ function learning_records() {
     .setOption('title',chart_title)
     .setOption('legend', {position: 'none', textStyle: {color: 'GRAY', fontSize: 16}})
     .setColors(colors)
+    .setNumHeaders(1)
     .build();
   sheet.insertChart(chart);
 //    .setChartType(Charts.ChartType.BAR)
