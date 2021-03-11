@@ -4,7 +4,7 @@ A google spreadsheet for recording everyday learning for learners and visualize 
 This Google spreadsheet can be used for recording learners' everyday learning and visualize thier effort easily. This is mainly for autonomous learning.<BR>
 <BR>
 Set up:<BR>
-0. You can get the spreadsheet file from <A href="https://docs.google.com/spreadsheets/d/1JFSneO_poo24kiEoi7RdhQ3rWC2LL535ZNZIFOqQRGk/edit?usp=sharing">here</a>.<BR> Open it and 'Create a copy' from 'File' tab, or<BR>
+0. You can get the spreadsheet file from <A href="https://docs.google.com/spreadsheets/d/1JFSneO_poo24kiEoi7RdhQ3rWC2LL535ZNZIFOqQRGk/edit?usp=sharing">here</a>. Open it and 'Create a copy' from 'File' tab, or<BR>
 <BR>
 1. Download the 'Learning_records_github.xlsx' file and put it on your google Drive. <BR>
 &nbsp;&nbsp;&nbsp;&nbsp;   If you are a teacher, share it and have students make a copy of the excel file.<BR>
