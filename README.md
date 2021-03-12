@@ -14,7 +14,7 @@ Set up:<BR>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      on the top right of the button. Then click 'Assign script' and write 'learning_records'.<BR>
 3. Now you can ready for using this learning records file.<BR>
 <BR>
-How you use:<BR><IMG SRC="img1.png">
+How to use:<BR><IMG SRC="img1.png">
 You will record your learning activities on the spreadsheet. Write date, activity type, minutes you spent on learning, and description<BR>
 as shown above. Do not forgot to write your name on the green F1 cell.<BR>
 You can create a bar chart to make sure your learning history monthly. Click 'Learning Records' button.<BR>
