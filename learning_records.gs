@@ -35,19 +35,10 @@ function learning_records() {
         if (item[1].getYear() == thisyear && item[1].getMonth() == thismonth) {
           month_sum[j] += item[3]/60;
         }
-        console.log(item);
+        //console.log(item);
       }
     });
   }
-//  console.log(time_sum);
-  
-  //const result = [];
-  //ss.map(function(item) { 
-  //  if(item.indexOf('Reading') !== -1) {
-  //   result.push(item);
-  //  }
-  //});
-  //console.log(result)
 
   //create a result tabel around I1 cell 
   const chart_title = 'Learning Records: '+learner_name;
@@ -71,7 +62,7 @@ function learning_records() {
     .asBarChart()
     .setPosition(3,2,0,0)
     .setOption('title',chart_title)
-    .setOption('legend', {position: 'none', textStyle: {color: 'GRAY', fontSize: 16}})
+    .setOption('legend', {position: 'top', textStyle: {color: 'GRAY', fontSize: 16}})
     .setColors(colors)
     .setNumHeaders(1)
     .build();
